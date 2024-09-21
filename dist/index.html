@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Makan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- Navbar -->
+    <audio autoplay loop>
+        <source src="/ASET/bg music web.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Pawon<span>Elviera</span></h1>
+            <img src="logo-removebg-preview.png" alt="Logo" style="height: 40px;">
+        </div>
+    
+        <!-- Input checkbox untuk toggle menu -->
+        <input type="checkbox" id="menu-toggle">
+    
+        <!-- Label untuk menu toggle (icon burger) -->
+        <label for="menu-toggle" class="burger">&#9776;</label>
+    
+        <!-- Menu navigasi -->
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonial-form">Testimony</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <img src="dapur3(2).jpg" alt="" class="header-bg-img">
+                <h1>Welcome to Dapur Elviera</h1>
+                <h2>Delicious Meals at Your Doorstep</h2>
+                <p>Warung Makan offers a variety of delicious dishes prepared with fresh ingredients. Enjoy our specials and traditional favorites in a cozy and welcoming environment.</p>
+                <a href="#menu"><button>See Our Menu</button></a>
+            </div>
+        </header>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-cards">
+                <div class="card">
+                    <img src="ASET/ayam  panggang.jpg" alt="Rice Bowl 1">
+                    <div class="card-content">
+                        <h3>Ayam Panggang</h3>
+                        <p>Ayam panggang yang sudah diberi bumbu BBQ</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/ayam krispi.jpg" alt="Rice Bowl 2">
+                    <div class="card-content">
+                        <h3>Ayam Krispi</h3>
+                        <p>Ayam yang dibaluri tepung lalu digorang hingga krispi</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/chicken katsu.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Chicken Katsu</h3>
+                        <p>Dada ayam yang sudah dipotong-potong dan dibaluri tepung lalu digoreng</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/nasgor.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Nasi Goreng Seafood</h3>
+                        <p>Nasi goreng yang diberi bumbu khas nusantara lalu diberi toping seafood</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/takoyaki.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Takoyaki</h3>
+                        <p>Takoyaki yang didalamnya terdapat isi gurita, daging sapi, cumi lalu ditumpahkan saus BBQ</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/mie goreng.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Mie Goreng</h3>
+                        <p>Mie goreng yang di buat dengan bumbu yang seda[ dan diberikan campuran daging ayam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/soto ayam.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Soto Ayam</h3>
+                        <p>Soto ayam khas menggunakan rempah-rempah nusantara</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ASET/steak.jpg" alt="Rice Bowl 3">
+                    <div class="card-content">
+                        <h3>Steak</h3>
+                        <p>Steak yang ditumpahkan saus BBQ</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>At <span class="highlight">WarungMakan</span>, we pride ourselves on offering a variety of delicious and freshly prepared meals that satisfy every craving. Whether you're in the mood for tender grilled chicken, crispy chicken, or flavorful chicken katsu, we've got something for everyone. Our menu also includes seafood fried rice packed with fresh ingredients and the savory, delightful taste of takoyaki straight from Japan's street food scene. Each dish is carefully crafted with the finest ingredients to ensure an unforgettable dining experience. Come and enjoy our welcoming atmosphere and taste the flavors that make WarungMakan stand out!</p>
+            </div>
+            <div class="about-image">
+                <img src="ASET/2149209253.jpg" alt="About WarungMakan">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="testimonial-form">
+        <h2>Submit Your Testimonial</h2>
+        <form action="#" method="post">
+            <label for="name">Nama :</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="rating">Rating :</label>
+            <select id="rating" name="rating" required>
+                <option value="" disabled selected>Pilih Rating</option>
+                <option value="5">5 - Sempurna</option>
+                <option value="4">4 - Bagus</option>
+                <option value="3">3 - Cukup</option>
+                <option value="2">2 - Kurang</option>
+                <option value="1">1 - Buruk</option>
+            </select>
+    
+            <label for="message">Testimoni :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <div class="form-buttons">
+                <button type="submit">Kirim</button>
+                <button type="reset">Batal</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact">
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h1>Warung Makan</h1>
+                        <p>Jl. Imam Bonjol No.123, Kota Cilegon, Provinsi Banten</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Warung Makan. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>
